@@ -62,14 +62,16 @@ export function Hero() {
       <div className="relative max-w-7xl mx-auto">
         <div className="text-center mb-16">
           {/* Animated Badge */}
-          <div
-            className={`inline-flex items-center px-4 py-2 rounded-full bg-green-100 text-green-800 text-sm font-medium mb-6 transform transition-all duration-1000 ${
+          <Button
+            variant="secondary"
+            size="sm"
+            className={`inline-flex items-center mb-6 transform transition-all duration-1000 ${
               isVisible ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
             }`}
           >
             <Sparkles className="h-4 w-4 mr-2 animate-spin" />
             Join the Green Revolution
-          </div>
+          </Button>
 
           {/* Main Heading */}
           <h1

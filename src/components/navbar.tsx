@@ -10,7 +10,7 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
   const [isProfileOpen, setIsProfileOpen] = useState(false)
-  const [user, setUser] = useState({ name: "Eco Warrior", email: "user@greentrack.com", avatar: "🌱" })
+  const [user, setUser] = useState({ name: "John Doe", email: "john@example.com", avatar: "👤" })
 
   const navItems = [
     { name: "Habits", href: "#habits" },
@@ -92,7 +92,7 @@ export function Navbar() {
                   <span className="hidden lg:block text-sm">{user.name}</span>
                 </Button>
               </DialogTrigger>
-              <DialogContent className="sm:max-w-md">
+              <DialogContent className="sm:max-w-md bg-white">
                 <DialogHeader>
                   <DialogTitle>Profile Settings</DialogTitle>
                 </DialogHeader>
@@ -127,7 +127,7 @@ export function Navbar() {
             isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
           }`}
         >
-          <div className="bg-white/95 backdrop-blur-md rounded-lg mt-2 p-4 border border-green-100 shadow-lg">
+          <div className="bg-white/90 backdrop-blur-md rounded-lg mt-2 p-4 border border-green-100 shadow-lg">
             {navItems.map((item, index) => (
               <a
                 key={item.name}
