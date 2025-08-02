@@ -6,23 +6,23 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "GreenTrack - Build Greener Communities",
+  title: "GreenTrack – Track. Act. Impact.",
   description:
     "Track eco-friendly habits, connect with your community, and make a real impact on environmental sustainability through our gamified platform.",
   keywords: ["sustainability", "eco-friendly", "environment", "community", "green living", "carbon footprint"],
   authors: [{ name: "GreenTrack Team" }],
   openGraph: {
-    title: "GreenTrack - Build Greener Communities",
+    title: "GreenTrack – Track. Act. Impact.",
     description:
       "Track eco-friendly habits, connect with your community, and make a real impact on environmental sustainability.",
     url: "https://greentrack.vercel.app",
-    siteName: "GreenTrack",
+    siteName: "GreenTrack – Track. Act. Impact.",
     images: [
       {
         url: "/assets/screenshot.png",
         width: 1200,
         height: 630,
-        alt: "GreenTrack Platform Screenshot",
+        alt: "GreenTrack – Track. Act. Impact.",
       },
     ],
     locale: "en_US",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "GreenTrack - Build Greener Communities",
+    title: "GreenTrack – Track. Act. Impact.",
     description:
       "Track eco-friendly habits, connect with your community, and make a real impact on environmental sustainability.",
     images: ["/assets/screenshot.png"],
