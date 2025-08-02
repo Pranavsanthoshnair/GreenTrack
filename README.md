@@ -23,15 +23,18 @@ GreenTrack is a front-end focused web platform designed to help individuals and 
 
 > _Add screenshots of your homepage, habit tracker, and community dashboard here._
 
-- ![Homepage](./screenshots/homepage.png)
-- ![Habit Tracker](./screenshots/habit-tracker.png)
-- ![Community Actions Map](./screenshots/community-map.png)
+- ![Homepage](./assets/1.png)
+- ![Community Actions](./assets/2.png)
+- ![Learning Area](./assets/3.png)
+- ![Tools](./assets/4.png)
+- ![Footer](./assets/5.png)
+- ![Profile](./assets/6.png)
 
 ---
 
 ## 🔗 GitHub Repository
 
-[👉 View the Project on GitHub](https://github.com/your-username/green-track)
+[👉 View the Project on GitHub](https://github.com/Pranavsanthoshnair/GreenTrack)
 
 ---
 
