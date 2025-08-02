@@ -21,7 +21,6 @@ GreenTrack is a front-end focused web platform designed to help individuals and 
 
 ## 📸 Screenshots
 
-> _Add screenshots of your homepage, habit tracker, and community dashboard here._
 
 - ![Homepage](./assets/1.png)
 - ![Community Actions](./assets/2.png)
